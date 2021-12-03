@@ -6,7 +6,10 @@ namespace Cek_Prima
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Masukkan angka: ");
+            int Bilangan = Convert.ToInt32(Console.ReadLine());
+            
         }
     }
 }
+
